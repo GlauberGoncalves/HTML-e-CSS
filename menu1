@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aula CSS</title>
+<meta charset="UTF-8">
+<style type="text/css">
+
+body{background-color: #F08080}
+
+p{
+  font: 40px Arial, sans-serif;
+  color: #D2691E;
+  padding: 30px 40px; 
+}
+.site{
+  background-color: white;
+  width: 400px;
+  height: 250px;
+  border-radius: 70px;
+  margin: 10px auto;
+  
+}
+
+.menu ul{
+  padding-left: 10px;
+}
+
+.menu li{  
+  display: inline;
+  border: 1px solid red;
+  transition-duration: 4s;
+}
+
+.menu li:hover{
+  color: white;
+  background-color: #F08080;
+  transition-duration: .5s;
+  
+}
+  </style>
+</head>
+    <body>
+      <div class="site">
+        <div class="conteudo">
+            <p>Menu em CSS</p>
+              <ul class="menu">
+                <li>Home</li>
+                <li>Quem Somos</li>
+                <li>Serviços</li>
+                <li>Contatos</li>
+             </ul>
+        </div>
+      </div>
+    <body>
+</html>
+
