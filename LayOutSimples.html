@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Layout Simples com Divs</title>
+<style type="text/css">body{
+  background-color: #FAEBD7;
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  
+}
+
+.site{
+  background-color:  #7bcddb;
+  width: 900px;
+  margin: 0 auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+
+.topo{
+  background-color: #eeeee6;
+  width: 900px;
+  height: 130px;
+  margin: 0 auto;
+  border-radius: 50px 50px 0 0;
+}
+
+
+.menu{
+  background-color: #7bcddb;
+  width: 900px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.imenu ul{
+  margin-top: 10px;
+  background-color: #7bcddb;
+}
+
+.imenu li{
+  display: inline;
+  padding: 5px;
+  margin-left: 30px;
+  background-color: #7bcddb;
+  transition-duration: 6s;
+}
+
+.imenu li:hover{
+  background-color: white;
+  transition-duration: 2s;
+  color: #800080;
+  
+}
+
+.conteudo{
+  background-color: #f9d8a3;
+  width:  900px;
+  height: 400px;
+  margin: 0 auto;
+}
+
+.imgshow{
+  background-color: white;
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin: 40px;
+
+  transition-duration: 5s;
+  border: 5px solid white;
+}
+.imgshow:hover{
+  transform: scale(1.3);
+  transition-duration: 2s;
+  border:1px solid yellow ;
+  
+}
+.txt{
+  float: left;
+  height: 250px;
+  width: 250px;
+  margin: 40px;
+  border: 1px solid white;
+}
+
+.rodape{
+  background-color: #acedef;
+  width: 900px;
+  margin: 0 auto;
+  height: 30px;
+}</style>
+
+
+  
+  <meta charset="UTF-8">
+</head>
+  <body>
+    <div class="site">
+      <div class="topo">
+        <img src="https://s3-sa-east-1.amazonaws.com/projetos-artes/thumb%2F2012%2F05%2F04%2F17%2FWDL-Logo-14537_4667_043428893_1952870571.jpg">
+        </div>
+      <div class="imenu">
+         <ul>    
+           <li>Home</li>
+           <li>Serviços</li>
+           <li>Fotos</li>
+           <li>Contatos</li>
+        </ul>
+        </div>
+      <div class="conteudo">
+        <div class="imgshow">
+          <img src="http://brcdn.ar-cdn.com/recipes/xlarge/b56ea445-9e3e-4d80-936f-150a18edc2ad.jpg"></div>
+        <div class="txt">
+          <p>Os peixes possuem cerca de 20% em sua composição de proteína de ótima qualidade, rica em aminoácidos não essenciais, isto é, que não são produzidos pelo organismo. E quanto ao teor de gordura tão temido por todos? Quando falamos em peixes, não devemos ter a imagem tão negativa que temos, por exemplo, quando pensamos na carne vermelha, que tem gordura saturada em excesso. 
+</p>
+          
+        </div>
+        
+      </div>
+      <div class="rodape">rodape</div>
+    </div>
+  
+</body>
+</html>
