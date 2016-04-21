@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Mini Caixa de conteudo</title>
+<style type="text/css">
+.pt{
+  font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 30px;
+  color: black;
+}
+body{
+  background-color: #F9E0B2;
+}
+
+.pagina{
+    width: 800px;
+    height: 1000px;
+    border: 5px solid back;
+    margin: 0 auto;
+}
+
+.InfBox{
+  background-color:#00C8F8 ;
+  width:  300px;
+  min-height: 300px ;
+  border-radius: 20px 20px 40px 40px;
+  border: 3px solid #FF4C65; 
+  float: left;
+  margin: 20px;
+}
+
+.TitleInfBox{ /*Titulo da caixa de texto */
+  background-color: #FFC33C;
+  width:  300px;
+  height:  50px ;
+  border-radius: 16px 16px 0 0;
+  border: 1px solid blue; 
+  
+  font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+.ContInfBox{/* Paragrafo da caixa de texto*/
+  background-color: #FFC33C;
+  width: 280px;
+  height: 250px;
+  margin: 10px 10px 20px 10px;
+  float: left;
+  text-align: center;  
+
+}
+
+.ContInfBox img{
+  border: 1px solid white;
+  transition-duration: 0.5s;
+}
+.ContInfBox img:hover{
+  transition-duration: 1s;
+  transform: scale(1.05);
+}
+</style>
+
+
+
+</head>
+<body>
+<!-- Start your code here -->
+<p class="pt">Box of Text</p> 
+<div class="pagina">
+  <div class="InfBox">
+    <div class="TitleInfBox"><p>Titulo e paragrafo</p></div><!--Fim Div TitleInfBox-->
+    <div class="ContInfBox"> <!--Ponha seu texto aqui-->
+      <p>Esse é um pequeno exemplo de mini caixa
+          de informação onde você poderá por
+        o seu conteudo.</p>
+        <p>Nesse exemplo eu utilizei um titulo
+            e um texto informativo.</p>
+         
+          </div> <!--Fim Div TextInfBox-->
+  </div> <!--Fim Div InfBox-->
+  
+<!-- Estrutura da Caixa-->
+  <div class="InfBox">
+    <div class="TitleInfBox"><p>Imagem Estática<!--Lugar para Titulo--></p></div>
+    <div class="ContInfBox"><img src="http://4.bp.blogspot.com/-YNlBzNxhlKc/T75IdUE2DPI/AAAAAAAAAp0/zMUsD5xvuXY/s280/arbol-otono.jpg"></div>
+  </div>
+</div><!--Fim da Caixa-->
+
+
+<!-- End your code here -->
+</body>
+</html>
