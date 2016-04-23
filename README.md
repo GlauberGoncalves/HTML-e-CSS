@@ -1,2 +1,2 @@
 # HTML-e-CSS
-Pequenas Ideias de CSS
+Simple ideas about HTML and CSS for beginners.
