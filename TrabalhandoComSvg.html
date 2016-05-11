@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Trabalhando com SVG</title>
+<style type="text/css">.lw { font-size: 60px; }
+
+body{
+  background-color: #FFEFD5;
+}
+
+.home{
+  background-color: #ccc;
+  height: 100px;
+  width: 200px;
+  border-radius: 15px;
+  
+}
+.circulo1{
+  background-image: linear-gradient(to right, white, purple);
+}
+
+.BrOrange{
+  fill: orange;
+  stroke: black;
+}
+.BrAzul{
+  fill: blue;
+  stroke: black;
+}
+.BrYellow{
+  fill: yellow;
+  stroke: black;
+}
+
+.BrRed{
+  fill: red;
+  stroke: black;
+}</style>
+
+
+
+</head>
+<body>
+
+  <p class="lw">GrÃ¡ficos com SVG</p>
+
+  <svg height="300" width="200">
+    <rect x="0" y="140" width="29" height="200" class="BrOrange"></rect>
+   <rect x="30" y="140" width="29" height="150" class="BrAzul"></rect>
+   <rect x="60" y="140" width="29" height="90" class="BrYellow"></rect>
+    <rect x="90" y="140" width="29" height="80" class="BrRed"></rect>    
+  </svg>
+  
+ <hr>
+  <svg height="150" width="200">
+   <circle cx="125" cy="75" r="60" fill="red"></circle>
+    <circle cx="125" cy="75" r="50" fill="white"></circle>
+    <circle cx="125" cy="75" r="40" fill="red"></circle>
+    <circle cx="125" cy="75" r="30" fill="white"></circle>
+    <circle cx="125" cy="75" r="20" fill="red"></circle>
+    <circle cx="125" cy="75" r="10" fill="white"></circle>
+    <circle cx="125" cy="75" r="5" fill="red"></circle>
+  </svg>
+ <hr> 
+    <svg height="150" width="200">
+   
+      <circle cx="125" cy="75" r="60" fill="red"></circle>
+      <circle cx="125" cy="75" r="40" fill="white"></circle>
+      <circle cx="125" cy="75" r="20" fill="red"></circle>
+  </svg>
+  <hr>
+  <svg height="150" width="200">
+      <circle cx="125" cy="75" r="70" fill="black"></circle>
+      <circle cx="125" cy="75" r="60" fill="white"></circle>
+      <circle cx="125" cy="75" r="50" fill="black"></circle>
+      <circle cx="125" cy="75" r="40" fill="white"></circle>
+      <circle cx="125" cy="75" r="30" fill="black"></circle>
+      <circle cx="125" cy="75" r="20" fill="white"></circle>
+      <circle cx="125" cy="75" r="10" fill="black"></circle>
+  </svg>
+ <hr>
+
+  <svg height="200" width="600">
+    <circle cx="100" cy="100" r="80" class="circulo1"></circle>
+    <circle cx="120" cy="100" r="50" class="circulo2" fill="white"></circle>
+
+    <circle cx="300" cy="100" r="80" class="circulo1"></circle>
+    <circle cx="285" cy="100" r="50" class="circulo2" fill="white"></circle>
+    <circle cx="200" cy="150" r="20" class="circulo1"></circle>
+  
+  
+  </svg>
+  
+<hr>
+</body>
+</html>
